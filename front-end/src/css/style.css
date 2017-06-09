@@ -1,0 +1,149 @@
+:root {
+  --green: #32a4a7;
+  --red: #E57373;
+  --yellow: #ffc126;
+  --shadow_color: #495454;
+  --light_blue: #e4e9f3;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+.h_w_100{
+  width: 100%;
+  height: 100%;
+}
+body{
+  margin: 0;
+  font-size: 10px;
+}
+h1{
+	color: white;
+  margin: 0;
+  font-size: 2.5em;
+  text-shadow: 0 0 25px var(--shadow_color);
+}
+h2{
+  margin: 0;
+  font-size: 1.5em;
+}
+h3{
+  margin: 0;
+  font-size: 1.3em;
+}
+.min_heiht_80{
+  min-height: 30px;
+}
+body, button, input{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	-webkit-user-select: none;
+  text-align: center;
+}
+body{
+    background: #467679;
+}
+button, input{
+	outline: none;
+	vertical-align: middle;
+	text-decoration:none;
+}
+.pressed {
+  cursor: default;
+  box-shadow: 0 2px 10px var(--shadow_color);
+}
+
+.white {
+  background: var(--light_blue);
+  color: #695a5a;
+}
+.green {
+  color: white;
+  background: var(--green);
+}
+.red{
+	color: white;
+	background: var(--red);
+}
+.selected{
+  color: #523333;
+  background: var(--yellow);
+}
+.margin_25{
+  margin: 5px;
+}
+.margin_5_2{
+  margin: .4% 0;
+}
+.button{
+  margin: 5px;
+	padding: 5px 10px;
+	font-weight: bold;
+  font-size: 2em;
+  border-radius: 2px;
+	border: 0px solid transparent;
+}
+.box_shadow{
+  box-shadow: 0 0 5px var(--shadow_color);
+}
+.example-appear {
+   opacity: 0.01;
+}
+.example-appear.example-appear-active {
+   opacity: 1;
+   transition: opacity 200ms ease-in;
+}
+.z_index{
+  z-index: 2;
+}
+.absolute{
+  right: 30px;
+  top: 0;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 3;
+}
+.comment_div{
+  margin: 15px;
+}
+.comment_title{
+  padding: 5px;
+  margin: 5px;
+  font-size: 1.5em;
+  background: var(--light_blue);
+}
+.comment_text{
+  padding: 5px;
+  margin: 5px;
+  font-size: 1.5em;
+  background: white;
+}
+.delete_button{
+  padding: 5px 15px;
+  margin: 0 5px;
+  width: 100%;
+}
+.width_15{
+  width: 18%;
+}
+.width_40{
+  width: 40%;
+}
+.width_100{
+  width: 100%;
+}
+.min_width_25{
+  min-width: 25%;
+}
+.padding_15px{
+  padding: 15px;
+}
+.padding_0_15px{
+  padding: 0 15px;
+}
+.loading {
+  padding: 30px;
+  background-image: url('../svg/loading.svg');
+  background-size: 100% 100%;
+}
