@@ -1,6 +1,7 @@
 
 export const style = {
-  'nav_button_green': ' button pressed green border_radius',
+  'nav_button_green': ' button pressed blue border_radius',
+  'nav_button_blue': ' button pressed green border_radius',
   'nav_button_red': 'button pressed red border_radius',
   'nav_button_selected': 'button pressed selected border_radius',
 

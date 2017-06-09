@@ -1,5 +1,6 @@
 :root {
-  --green: #32a4a7;
+  --green: #32a799;
+  --blue: #32a4a7;
   --red: #E57373;
   --yellow: #ffc126;
   --shadow_color: #495454;
@@ -60,6 +61,10 @@ button, input{
   color: white;
   background: var(--green);
 }
+.blue {
+  color: white;
+  background: var(--blue);
+}
 .red{
 	color: white;
 	background: var(--red);
@@ -76,11 +81,15 @@ button, input{
 }
 .button{
   margin: 5px;
-	padding: 5px 10px;
+	padding: 3.5px 10px;
 	font-weight: bold;
   font-size: 2em;
   border-radius: 2px;
 	border: 0px solid transparent;
+  flex-wrap: nowrap;
+}
+.border_radius{
+  border-radius: 2px;
 }
 .box_shadow{
   box-shadow: 0 0 5px var(--shadow_color);
@@ -119,16 +128,11 @@ button, input{
   font-size: 1.5em;
   background: white;
 }
-.delete_button{
-  padding: 5px 15px;
-  margin: 0 5px;
-  width: 100%;
-}
 .width_15{
   width: 18%;
 }
 .width_40{
-  width: 40%;
+  width: 30%;
 }
 .width_100{
   width: 100%;
